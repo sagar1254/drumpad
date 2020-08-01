@@ -1,0 +1,100 @@
+body{
+    display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+      height: 100vh;
+     
+      box-sizing: border-box;
+      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(236,237,224,1) 54%, rgba(0,212,255,1) 100%);
+    }
+.container{
+       
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       
+}
+
+.cymbal{
+height: 100px;
+width: 1200px;
+ 
+  padding: 2px 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+  
+.tom{
+height: 100px;
+width: 800px;
+
+padding: 2px 3px;
+display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.kick-snare{
+    
+    height: 100px;
+    width: 800px;
+    
+    padding: 2px 3px;
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.cymbalColor{
+    background-color: rgb(42, 42, 109);
+    border: 2px solid green;
+    border-radius: 20px;
+    width: 190px;
+    
+}
+
+.tomColor{
+    background-color: rgb(231, 231, 23);
+    border: 2px solid blue;
+    border-radius: 20px;
+    width: 190px;
+    
+}
+
+.kickColor{
+    background-color: rgb(221, 184, 184);
+    border: 2px solid  orange;
+    border-radius: 20px;
+    width: 190px;
+    
+}
+
+.snareColor{
+    background-color: rgb(153, 153, 15);
+    border: 2px solid rgb(192, 16, 16);
+    border-radius: 20px;
+    width: 190px;
+    
+}
+.cymbalColor.active{
+    background-color: rgb(96, 96, 197);
+}
+
+.tomColor.active{
+    background-color: rgb(151, 151, 67);
+}
+
+.kickColor.active{
+      background-color: rgb(129, 115, 115);
+}
+
+.snareColor.active{
+    background-color: rgb(214, 214, 23);
+}
